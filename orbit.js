@@ -67,6 +67,9 @@ function setup() {
     monoSynth1.sphereX = randomX();
     monoSynth1.sphereY = randomY();
     monoSynth1.sphereZ = randomZ();
+    monoSynth1.rotX = randomRotateFactor();
+    monoSynth1.rotY = randomRotateFactor();
+    monoSynth1.rotZ = randomRotateFactor();
     monoSynth1.sphereSize = randomSize();
     monoSynth1.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth2 = new p5.MonoSynth();
@@ -74,6 +77,9 @@ function setup() {
     monoSynth2.sphereX = randomX();
     monoSynth2.sphereY = randomY();
     monoSynth2.sphereZ = randomZ();
+    monoSynth2.rotX = randomRotateFactor();
+    monoSynth2.rotY = randomRotateFactor();
+    monoSynth2.rotZ = randomRotateFactor();
     monoSynth2.sphereSize = randomSize();
     monoSynth2.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth3 = new p5.MonoSynth();
@@ -81,6 +87,9 @@ function setup() {
     monoSynth3.sphereX = randomX();
     monoSynth3.sphereY = randomY();
     monoSynth3.sphereZ = randomZ();
+    monoSynth3.rotX = randomRotateFactor();
+    monoSynth3.rotY = randomRotateFactor();
+    monoSynth3.rotZ = randomRotateFactor();
     monoSynth3.sphereSize = randomSize();
     monoSynth3.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth4 = new p5.MonoSynth();
@@ -88,6 +97,9 @@ function setup() {
     monoSynth4.sphereX = randomX();
     monoSynth4.sphereY = randomY();
     monoSynth4.sphereZ = randomZ();
+    monoSynth4.rotX = randomRotateFactor();
+    monoSynth4.rotY = randomRotateFactor();
+    monoSynth4.rotZ = randomRotateFactor();
     monoSynth4.sphereSize = randomSize();
     monoSynth4.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth5 = new p5.MonoSynth();
@@ -95,6 +107,9 @@ function setup() {
     monoSynth5.sphereX = randomX();
     monoSynth5.sphereY = randomY();
     monoSynth5.sphereZ = randomZ();
+    monoSynth5.rotX = randomRotateFactor();
+    monoSynth5.rotY = randomRotateFactor();
+    monoSynth5.rotZ = randomRotateFactor();
     monoSynth5.sphereSize = randomSize();
     monoSynth5.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth6 = new p5.MonoSynth();
@@ -102,6 +117,9 @@ function setup() {
     monoSynth6.sphereX = randomX();
     monoSynth6.sphereY = randomY();
     monoSynth6.sphereZ = randomZ();
+    monoSynth6.rotX = randomRotateFactor();
+    monoSynth6.rotY = randomRotateFactor();
+    monoSynth6.rotZ = randomRotateFactor();
     monoSynth6.sphereSize = randomSize();
     monoSynth6.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth7 = new p5.MonoSynth();
@@ -109,6 +127,9 @@ function setup() {
     monoSynth7.sphereX = randomX();
     monoSynth7.sphereY = randomY();
     monoSynth7.sphereZ = randomZ();
+    monoSynth7.rotX = randomRotateFactor();
+    monoSynth7.rotY = randomRotateFactor();
+    monoSynth7.rotZ = randomRotateFactor();
     monoSynth7.sphereSize = randomSize();
     monoSynth7.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth8 = new p5.MonoSynth();
@@ -116,6 +137,9 @@ function setup() {
     monoSynth8.sphereX = randomX();
     monoSynth8.sphereY = randomY();
     monoSynth8.sphereZ = randomZ();
+    monoSynth8.rotX = randomRotateFactor();
+    monoSynth8.rotY = randomRotateFactor();
+    monoSynth8.rotZ = randomRotateFactor();
     monoSynth8.sphereSize = randomSize();
     monoSynth8.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth9 = new p5.MonoSynth();
@@ -123,6 +147,9 @@ function setup() {
     monoSynth9.sphereX = randomX();
     monoSynth9.sphereY = randomY();
     monoSynth9.sphereZ = randomZ();
+    monoSynth9.rotX = randomRotateFactor();
+    monoSynth9.rotY = randomRotateFactor();
+    monoSynth9.rotZ = randomRotateFactor();
     monoSynth9.sphereSize = randomSize();
     monoSynth9.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth10 = new p5.MonoSynth();
@@ -130,6 +157,9 @@ function setup() {
     monoSynth10.sphereX = randomX();
     monoSynth10.sphereY = randomY();
     monoSynth10.sphereZ = randomZ();
+    monoSynth10.rotX = randomRotateFactor();
+    monoSynth10.rotY = randomRotateFactor();
+    monoSynth10.rotZ = randomRotateFactor();
     monoSynth10.sphereSize = randomSize();
     monoSynth10.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth11 = new p5.MonoSynth();
@@ -137,6 +167,9 @@ function setup() {
     monoSynth11.sphereX = randomX();
     monoSynth11.sphereY = randomY();
     monoSynth11.sphereZ = randomZ();
+    monoSynth11.rotX = randomRotateFactor();
+    monoSynth11.rotY = randomRotateFactor();
+    monoSynth11.rotZ = randomRotateFactor();
     monoSynth11.sphereSize = randomSize();
     monoSynth11.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth12 = new p5.MonoSynth();
@@ -144,6 +177,9 @@ function setup() {
     monoSynth12.sphereX = randomX();
     monoSynth12.sphereY = randomY();
     monoSynth12.sphereZ = randomZ();
+    monoSynth12.rotX = randomRotateFactor();
+    monoSynth12.rotY = randomRotateFactor();
+    monoSynth12.rotZ = randomRotateFactor();
     monoSynth12.sphereSize = randomSize();
     monoSynth12.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth13 = new p5.MonoSynth();
@@ -151,6 +187,9 @@ function setup() {
     monoSynth13.sphereX = randomX();
     monoSynth13.sphereY = randomY();
     monoSynth13.sphereZ = randomZ();
+    monoSynth13.rotX = randomRotateFactor();
+    monoSynth13.rotY = randomRotateFactor();
+    monoSynth13.rotZ = randomRotateFactor();
     monoSynth13.sphereSize = randomSize();
     monoSynth13.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth14 = new p5.MonoSynth();
@@ -158,6 +197,9 @@ function setup() {
     monoSynth14.sphereX = randomX();
     monoSynth14.sphereY = randomY();
     monoSynth14.sphereZ = randomZ();
+    monoSynth14.rotX = randomRotateFactor();
+    monoSynth14.rotY = randomRotateFactor();
+    monoSynth14.rotZ = randomRotateFactor();
     monoSynth14.sphereSize = randomSize();
     monoSynth14.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth15 = new p5.MonoSynth();
@@ -165,6 +207,9 @@ function setup() {
     monoSynth15.sphereX = randomX();
     monoSynth15.sphereY = randomY();
     monoSynth15.sphereZ = randomZ();
+    monoSynth15.rotX = randomRotateFactor();
+    monoSynth15.rotY = randomRotateFactor();
+    monoSynth15.rotZ = randomRotateFactor();
     monoSynth15.sphereSize = randomSize();
     monoSynth15.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
 }
@@ -238,16 +283,19 @@ function windowResized() {
 }
 
 function randomX() {
-    return Math.round(random(100));
+    return Math.round(random(300));
 }
 function randomY() {
-    return Math.round(random(100));
+    return Math.round(random(300));
 }
 function randomZ() {
-    return Math.round(random(100));
+    return Math.round(random(300));
 }
 function randomSize() {
-    return Math.round(random(300, 500));
+    return Math.round(random(10, 300));
+}
+function randomRotateFactor() {
+    return random() * .01;
 }
 
 //Starts a monosynth
@@ -390,8 +438,9 @@ function renderSphere(monoSynth) {
     ambientMaterial(monoSynth.fillColor);
     push();
         translate(monoSynth.sphereX, monoSynth.sphereY, monoSynth.sphereZ);
-        rotateZ(frameCount * 0.01);
-        rotateX(frameCount * 0.01);
+        rotateZ(frameCount * monoSynth.rotZ);
+        rotateY(frameCount * monoSynth.rotY);
+        rotateX(frameCount * monoSynth.rotX);
     rotateY(frameCount * 0.01);
     torus(monoSynth.sphereX, monoSynth.sphereY, monoSynth.sphereZ, monoSynth.sphereSize);
     pop();
