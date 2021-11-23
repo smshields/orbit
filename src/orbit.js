@@ -388,8 +388,8 @@ function renderSphere(monoSynth) {
     noStroke();
     console.log(monoSynth.fillColor);
     ambientMaterial(monoSynth.fillColor);
-    translate(monoSynth.sphereX, monoSynth.sphereY, monoSynth.sphereZ);
     push();
+        translate(monoSynth.sphereX, monoSynth.sphereY, monoSynth.sphereZ);
         rotateZ(frameCount * 0.01);
         rotateX(frameCount * 0.01);
         rotateY(frameCount * 0.01);
