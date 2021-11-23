@@ -60,7 +60,7 @@ function setup() {
 
     //Generate Shapes for Visualizer
 
-
+    amplitude = new p5.Amplitude();
 
     monoSynth1 = new p5.MonoSynth();
     monoSynth1.num = 0;
@@ -68,105 +68,105 @@ function setup() {
     monoSynth1.sphereY = randomY();
     monoSynth1.sphereZ = randomZ();
     monoSynth1.sphereSize = randomSize();
-    monoSynth1.fillColor = randomColor();
+    monoSynth1.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth2 = new p5.MonoSynth();
     monoSynth2.num = 1;
     monoSynth2.sphereX = randomX();
     monoSynth2.sphereY = randomY();
     monoSynth2.sphereZ = randomZ();
     monoSynth2.sphereSize = randomSize();
-    monoSynth2.fillColor = randomColor();
+    monoSynth2.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth3 = new p5.MonoSynth();
     monoSynth3.num = 2;
     monoSynth3.sphereX = randomX();
     monoSynth3.sphereY = randomY();
     monoSynth3.sphereZ = randomZ();
     monoSynth3.sphereSize = randomSize();
-    monoSynth3.fillColor = randomColor();
+    monoSynth3.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth4 = new p5.MonoSynth();
     monoSynth4.num = 3;
     monoSynth4.sphereX = randomX();
     monoSynth4.sphereY = randomY();
     monoSynth4.sphereZ = randomZ();
     monoSynth4.sphereSize = randomSize();
-    monoSynth4.fillColor = randomColor();
+    monoSynth4.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth5 = new p5.MonoSynth();
     monoSynth5.num = 4;
     monoSynth5.sphereX = randomX();
     monoSynth5.sphereY = randomY();
     monoSynth5.sphereZ = randomZ();
     monoSynth5.sphereSize = randomSize();
-    monoSynth5.fillColor = randomColor();
+    monoSynth5.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth6 = new p5.MonoSynth();
     monoSynth6.num = 5;
     monoSynth6.sphereX = randomX();
     monoSynth6.sphereY = randomY();
     monoSynth6.sphereZ = randomZ();
     monoSynth6.sphereSize = randomSize();
-    monoSynth6.fillColor = randomColor();
+    monoSynth6.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth7 = new p5.MonoSynth();
     monoSynth7.num = 6;
     monoSynth7.sphereX = randomX();
     monoSynth7.sphereY = randomY();
     monoSynth7.sphereZ = randomZ();
     monoSynth7.sphereSize = randomSize();
-    monoSynth7.fillColor = randomColor();
+    monoSynth7.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth8 = new p5.MonoSynth();
     monoSynth8.num = 7;
     monoSynth8.sphereX = randomX();
     monoSynth8.sphereY = randomY();
     monoSynth8.sphereZ = randomZ();
     monoSynth8.sphereSize = randomSize();
-    monoSynth8.fillColor = randomColor();
+    monoSynth8.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth9 = new p5.MonoSynth();
     monoSynth9.num = 8;
     monoSynth9.sphereX = randomX();
     monoSynth9.sphereY = randomY();
     monoSynth9.sphereZ = randomZ();
     monoSynth9.sphereSize = randomSize();
-    monoSynth9.fillColor = randomColor();
+    monoSynth9.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth10 = new p5.MonoSynth();
     monoSynth10.num = 9;
     monoSynth10.sphereX = randomX();
     monoSynth10.sphereY = randomY();
     monoSynth10.sphereZ = randomZ();
     monoSynth10.sphereSize = randomSize();
-    monoSynth10.fillColor = randomColor();
+    monoSynth10.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth11 = new p5.MonoSynth();
     monoSynth11.num = 10;
     monoSynth11.sphereX = randomX();
     monoSynth11.sphereY = randomY();
     monoSynth11.sphereZ = randomZ();
     monoSynth11.sphereSize = randomSize();
-    monoSynth11.fillColor = randomColor();
+    monoSynth11.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth12 = new p5.MonoSynth();
     monoSynth12.num = 11;
     monoSynth12.sphereX = randomX();
     monoSynth12.sphereY = randomY();
     monoSynth12.sphereZ = randomZ();
     monoSynth12.sphereSize = randomSize();
-    monoSynth12.fillColor = randomColor();
+    monoSynth12.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth13 = new p5.MonoSynth();
     monoSynth13.num = 12;
     monoSynth13.sphereX = randomX();
     monoSynth13.sphereY = randomY();
     monoSynth13.sphereZ = randomZ();
     monoSynth13.sphereSize = randomSize();
-    monoSynth13.fillColor = randomColor();
+    monoSynth13.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth14 = new p5.MonoSynth();
     monoSynth14.num = 13;
     monoSynth14.sphereX = randomX();
     monoSynth14.sphereY = randomY();
     monoSynth14.sphereZ = randomZ();
     monoSynth14.sphereSize = randomSize();
-    monoSynth14.fillColor = randomColor();
+    monoSynth14.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
     monoSynth15 = new p5.MonoSynth();
     monoSynth15.num = 14;
     monoSynth15.sphereX = randomX();
     monoSynth15.sphereY = randomY();
     monoSynth15.sphereZ = randomZ();
     monoSynth15.sphereSize = randomSize();
-    monoSynth15.fillColor = randomColor();
+    monoSynth15.fillColor = color(random(0, 250), random(0, 250), random(0, 250));
 }
 
 function draw() {
@@ -175,12 +175,12 @@ function draw() {
 
     let locX = mouseX - width / 2;
     let locY = mouseY - height / 2;
-    pointLight(60, 60, 60, locX, locY, 400);
+    pointLight(100, 100, 100, locX, locY, 400);
     //black background
     background(0);
     //change view if the view desires
     //orbitControl();
-    console.log(SynthVisualizerState);
+    //console.log(SynthVisualizerState);
     if (SynthVisualizerState[0]) {
         renderSphere(monoSynth1);
     }
@@ -238,20 +238,18 @@ function windowResized() {
 }
 
 function randomX() {
-    return random(-100, 100);
+    return Math.round(random(-100, 100));
 }
 function randomY() {
-    return random(-100, 100);
+    return Math.round(random(-100, 100));
 }
 function randomZ() {
-    return random(-100, 100);
+    return Math.round(random(-100, 100));
 }
 function randomSize() {
-    return random(100, 500);
+    return Math.round(random(100, 500));
 }
-function randomColor() {
-    return color(random(0, 250), random(0, 250), random(0, 250));
-}
+
 //Starts a monosynth
 function triggerMonoSynthAttack(monoSynth, note, octave) {
     userStartAudio();
@@ -262,7 +260,7 @@ function triggerMonoSynthAttack(monoSynth, note, octave) {
     // note duration (in seconds)
     let dur = 1 / 6;
 
-    monoSynth.triggerAttack(note + octave, 1, time);
+    monoSynth.triggerAttack(note + octave, velocity, time);
 
 }
 
@@ -278,7 +276,6 @@ function keyPressed() {
     //Row 1
     if (key === 'q') {
         triggerMonoSynthAttack(monoSynth1, NOTE_STRINGS.C, 2);
-        SynthVisualizerState.voice1 = true;
     }
     if (key === 'w') {
         triggerMonoSynthAttack(monoSynth2, NOTE_STRINGS.Ef, 2);
@@ -389,14 +386,14 @@ function keyReleased(event) {
 //Render, in a location, a shape of some kind
 function renderSphere(monoSynth) {
     noStroke();
-    fill(randomColor());
-    specularMaterial(250);
+    console.log(monoSynth.fillColor);
+    ambientMaterial(monoSynth.fillColor);
     translate(monoSynth.sphereX, monoSynth.sphereY, monoSynth.sphereZ);
     push();
         rotateZ(frameCount * 0.01);
         rotateX(frameCount * 0.01);
         rotateY(frameCount * 0.01);
-    torus(monoSynth.sphereX, monoSynth.sphereY, monoSynth.spehreZ, monoSynth.size);
+    torus(monoSynth.sphereX, monoSynth.sphereY, monoSynth.sphereZ,  monoSynth.sphereSize);
     pop();
 }
 
