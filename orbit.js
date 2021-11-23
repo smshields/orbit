@@ -238,16 +238,16 @@ function windowResized() {
 }
 
 function randomX() {
-    return Math.round(random(-100, 100));
+    return Math.round(random(100));
 }
 function randomY() {
-    return Math.round(random(-100, 100));
+    return Math.round(random(100));
 }
 function randomZ() {
-    return Math.round(random(-100, 100));
+    return Math.round(random(100));
 }
 function randomSize() {
-    return Math.round(random(100, 500));
+    return Math.round(random(300, 500));
 }
 
 //Starts a monosynth
