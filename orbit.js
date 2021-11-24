@@ -220,7 +220,7 @@ function draw() {
 
     let locX = mouseX - width / 2;
     let locY = mouseY - height / 2;
-    pointLight(150, 150, 150, locX, locY, 400);
+    directionalLight(150, 150, 150, locX, locY, 500);
     //black background
     background(0);
     //change view if the view desires
