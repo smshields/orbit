@@ -2,6 +2,8 @@
 
 Orbit is a visual synthesizer that leverages the left side of your computer keyboard to create "planets" and make sounds. It's an exploratory experience, built on WebGL and P5.js. It was done as a homework assignment in response to a prompt asking to create an instrument.
 
+The camera zooms by intersection volumes, who pulse to your sound. Strange collisions of angle, curve, and color fill your eyes.
+
 ### Notes
 
 Active Keys are:
