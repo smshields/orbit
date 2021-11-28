@@ -273,9 +273,16 @@ function draw() {
     }
 
     //Camera Orbit
-    camera(cos(cameraAngle) * 300, sin(cameraAngle) * 300, cos(cameraAngle) * 300, 0, 0, 0, 0, 1, 0);
-    cameraAngle += 0.005;
-
+    camera(cos(cameraAngle) * 300, sin(cameraAngle) * 300, 0, 0, 0, 0, 0, 1, 0);
+    
+    if(cameraAngle > PI)
+    {
+        cameraAngle = 0;
+    }
+    else
+    {
+        cameraAngle += 0.005;
+    }
 }
 
 function windowResized() {
