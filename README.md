@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Orbit
 
-You can use the [editor on GitHub](https://github.com/smshields/orbit/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Orbit is a visual synthesizer that leverages the left side of your computer keyboard to create "planets" and make sounds. It's an exploratory experience, built on WebGL and P5.js. It was done as a homework assignment in response to a prompt asking to create an instrument.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Notes
 
-### Markdown
+Active Keys are:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+qwert
+asdfg
+zxcvb
 
-```markdown
-Syntax highlighted code block
+No other keys are used. The currently notes are set to the 1,3,5,7,9 of a C minor scale. Octaves increase as you go down the keyboard. 
 
-# Header 1
-## Header 2
-### Header 3
+It's meant to be contemplative and reverberative. The synth sound is currently the default voice of the P5.sound library's monosynth.
 
-- Bulleted
-- List
+Things I recommend trying:
 
-1. Numbered
-2. List
+1. Arpeggios: qwert - asdfg - zxcvb forward and back, quickly and at different tempos
+2. Cross-Octave Chords: Experiment with cross row/column notes and see what sounds you create. You can get some really retched distortion. Also some heavenly chords.
+3. Improvising: Find a drum beat and play
+4. Bring a Friend in: Have your partner(s) or friend(s) control the keyboard by sound/sight alone while you experience the opposite. 
+5. Project it on a wall: I'd love to see a picture 
 
-**Bold** and _Italic_ and `Code` text
+### Usage
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/smshields/orbit/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Don't orbit and drive. Feel free to clone/branch and build on this. I may come back to it eventually.
