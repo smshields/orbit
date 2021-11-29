@@ -218,53 +218,51 @@ function draw() {
     directionalLight(150, 150, 150, locX, locY, 500);
     //black background
     background(0);
-    //change view if the view desires
-    //orbitControl();
-    //console.log(SynthVisualizerState);
+    
     if (SynthVisualizerState[0]) {
-        renderSphere(monoSynth1);
+        renderTorus(monoSynth1);
     }
     if (SynthVisualizerState[1]) {
-        renderSphere(monoSynth2);
+        renderTorus(monoSynth2);
     }
     if (SynthVisualizerState[2]) {
-        renderSphere(monoSynth3);
+        renderTorus(monoSynth3);
     }
     if (SynthVisualizerState[3]) {
-        renderSphere(monoSynth4);
+        renderTorus(monoSynth4);
     }
     if (SynthVisualizerState[4]) {
-        renderSphere(monoSynth5);
+        renderTorus(monoSynth5);
     }
     if (SynthVisualizerState[5]) {
-        renderSphere(monoSynth6);
+        renderTorus(monoSynth6);
     }
     if (SynthVisualizerState[6]) {
-        renderSphere(monoSynth7);
+        renderTorus(monoSynth7);
     }
     if (SynthVisualizerState[7]) {
-        renderSphere(monoSynth8);
+        renderTorus(monoSynth8);
     }
     if (SynthVisualizerState[8]) {
-        renderSphere(monoSynth9);
+        renderTorus(monoSynth9);
     }
     if (SynthVisualizerState[9]) {
-        renderSphere(monoSynth10);
+        renderTorus(monoSynth10);
     }
     if (SynthVisualizerState[10]) {
-        renderSphere(monoSynth11);
+        renderTorus(monoSynth11);
     }
     if (SynthVisualizerState[11]) {
-        renderSphere(monoSynth12);
+        renderTorus(monoSynth12);
     }
     if (SynthVisualizerState[12]) {
-        renderSphere(monoSynth13);
+        renderTorus(monoSynth13);
     }
     if (SynthVisualizerState[13]) {
-        renderSphere(monoSynth14);
+        renderTorus(monoSynth14);
     }
     if (SynthVisualizerState[14]) {
-        renderSphere(monoSynth15);
+        renderTorus(monoSynth15);
     }
 
     //Camera Orbit
@@ -278,6 +276,21 @@ function draw() {
     {
         cameraAngle += 0.005;
     }
+}
+
+//TODO: Update translate here, it's incorrectly labeled from sphere experiment and doesn't work
+function renderTorus(monoSynth) {
+    noStroke();
+    console.log(monoSynth.fillColor);
+    ambientMaterial(monoSynth.fillColor);
+    push();
+        translate(monoSynth.sphereX, monoSynth.sphereY, monoSynth.sphereZ);
+        rotateZ(frameCount * monoSynth.rotZ);
+        rotateY(frameCount * monoSynth.rotY);
+        rotateX(frameCount * monoSynth.rotX);
+    rotateY(frameCount * 0.01);
+    torus(monoSynth.sphereX, monoSynth.sphereY, monoSynth.sphereZ, monoSynth.sphereSize);
+    pop();
 }
 
 function windowResized() {
